@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+           
+body{
+    background-image: url(https://phunugioi.com/wp-content/uploads/2021/12/background-Tet-1.jpg);
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size:contain;
+}
+
+html {
+    font-size: 16px;
+}
+
+.body{
+    background-color:rgba(0, 0, 0, 0.651);
+    height: 45px;
+    width: 100%;
+    color: rgb(236, 100, 100);
+    display: flex;
+    line-height: 20px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+.body .maintop{
+    padding: 5px;
+}
+.body .loginsingup{
+    padding: 5px;
+}
+.body a  {
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    float: left;
+    padding: 7px 16px;
+    
+}
+.body a:hover{
+    background-color: rgb(99, 99, 99);
+    border-radius: 23px;
+}
+.body  input{
+    float: right;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    
+}
+.body button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-bottom-left-radius: 23px;
+    border-top-left-radius: 23px;
+}
+.parent input[type="text"] {
+    height: 30px;
+    width: 400px;
+    padding: 2px; 
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+
+    
+}
+.parent{
+    padding: auto;
+    text-align: center;
+    margin: auto;
+}
+.option{
+    color: white;
+    margin-top: 5%;
+    display: flex;
+}
+.filter  {
+    margin: auto;
+    font-size:24px;
+
+}
+.filter li{
+    list-style: none;
+    padding: 5px 40px;
+}
+.filter a{
+    padding: 5px 16px;
+    padding-right:70px ;
+    text-decoration: none;
+    color: white;
+}
+.IC {
+    font-size: 30px;
+}
+.IC button{
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 24px;
+    padding: 10px 0px 10px 0px;
+    border: none;
+}
+.IC #parent{
+    background-color: rgb(0,0,0,0.5);
+    border-radius: 23px;
+    display: block;
+    min-width: 300px;
+}
+#parent button{
+    font-family: 'Fjalla One', sans-serif;
+}
+#parent i{
+    float: right;
+    margin-top: 3%;
+}
+.IC #textdown{
+    border-radius: 23px;
+    background-color: rgba(0, 0, 0, 0.76);
+    position: absolute;
+    padding: 5px 45px 5px 20px;
+    display: none;
+}
+.option {
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Jost', sans-serif;
+}
+.option h1{
+    background-color: rgb(0,0,0,0.5);
+    width: 15%;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.selectcolumn{
+    max-width: 200px;
+    border-right: 1px solid rgb(190, 190, 190);
+    padding: 4px;
+    max-height: 620px;
+    background-color: rgb(0,0,0,0.5);
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.selectcolumn li{
+    list-style: none;
+    padding: 5px 5px 5px 5px;
+}
+.selectcolumn a{
+    text-decoration: none;
+    color: rgb(179, 178, 178);
+}
+.selectcolumn a:hover{
+    color: white;
+}
+#Price{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 10px;
+}
+#Price input{
+    background-color: rgb(41, 41, 41);
+    border: 1px solid rgb(116, 116, 116);
+    border-radius: 20px;
+    padding: 2px;
+    margin: 3px;
+    color: antiquewhite;
+}
+#Price button{
+    width: 30px;
+    background-color: rgb(41, 41, 41);
+    border: 1px solid rgb(116, 116, 116);
+    border-radius: 20px;
+    color: antiquewhite;
+    padding: 1px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 990px;
+    
+}
+.bying{
+    display: flex;
+}
+.product img{
+    width: 200px;
+    border-radius: 10px;
+    height: 220px;
+
+}
+.productsforsale{
+    margin-left: 40px;
+    margin-top: 20px;
+    background-color: rgb(0,0,0,0.5);
+    padding:  10px 0px 0px 0px;
+    border-radius: 20px;
+
+}
+.product{
+    padding: 2px;
+    margin-right: 30px;
+    margin-left: 10px ;
+    margin-bottom: 20px;
+    max-width: 206px;
+}
+.product p:hover{
+    color: wheat;
+}
+.product p{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+h1 ,h2, h3{
+    font-family: 'Fjalla One', sans-serif;
+}
+.placebuying{
+    display: flex;
+    flex-direction: column;
+}
+.nextpage{
+    margin: auto;
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(0,0,0,0.5);
+    border-radius: 10px;
+}
+.nextpage a{
+    padding: 5px;
+    font-size: 20px;
+}
+.addcart{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 20px;
+}
+.addcart :hover{
+    font-size: 15px;
+}
+.addcart :active{
+    color: rgb(151, 151, 151);
+}
+video{
+    border-radius: 23px;
+    border: solid 5px rgba(0, 0, 0, 0.603);
+}

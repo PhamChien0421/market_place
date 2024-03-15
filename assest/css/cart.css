@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://png.pngtree.com/background/20210715/original/pngtree-flower-decoration-cute-cartoon-boy-vietnamese-new-year-background-picture-image_1324278.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.top{
+    background: rgba(0,0,0,0.5);
+    height: 45px;
+    width: 100%;
+    color: rgb(236, 100, 100);
+    display: flex;
+    line-height: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.top .maintop{
+    padding: 5px;
+}
+.top .loginsingup{
+    padding: 5px;
+}
+.top a  {
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    float: left;
+    padding: 7px 16px;
+    
+}
+.top a:hover{
+    background-color: rgb(99, 99, 99);
+    border-radius: 23px;
+}
+.top  input{
+    float: right;
+    border: none;
+    
+}
+.parent input[type="text"] {
+    height: 30px;
+    width: 400px;
+    padding: 2px; 
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;   
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+}
+.parent button{
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-bottom-left-radius: 23px;
+    border-top-left-radius: 23px;
+}
+.parent{
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#products {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    padding: 2.5em 0;
+}
+  
+#products .card {
+    max-width: 18em;
+    padding: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.7s;
+}
+
+#products .card:hover{
+    transform: translateY(-0.1in);
+}
+
+#products .card .image-container {
+    text-align: left;
+}
+
+#products .card .image-container img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 15em;
+    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+}
+
+#products .card .container {
+    padding-top: 1em;
+    color: #ececec;
+}
+
+#products .card .container h5 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#products .card .container h6 {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+#products .card .container button{
+    background-color: white;
+    border: none;
+    border: solid 1px black;
+    margin-top: 14px;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 100%;
+    cursor: pointer;
+}
+
+#products .card .container button:hover{
+    background-color: black;
+    color: white;
+}
+.productiveitem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 23px;
+    margin: 0px 40px 30px 40px;
+    width: 1200px;
+
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+h2{
+    color: white;
+}
+h3{
+    display: inline;
+    color: white;
+}
+img{
+    width: 150px;
+    height: 170px;    
+}
+input{
+    width: 15px;
+}
+.amount{
+    display: flex;
+    margin-right: 20px;
+    margin-left:20px ;
+}
+.del{
+    margin-left: 90px;
+    font-size: 30px;
+    color: white;
+}
+.del :active{
+    color: #6b6a6a;
+}
